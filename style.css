@@ -42,7 +42,7 @@ body {
 
 #talktome {
     border: solid 2px black;
-    height: 43px;
+    height: 40px;
     width: 120px;
     display: flex;
     justify-content: center;
