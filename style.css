@@ -47,7 +47,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
+    border-radius: 7px;
     background-color: black;
     color: white;
     cursor: pointer;
