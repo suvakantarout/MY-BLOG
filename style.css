@@ -190,7 +190,7 @@ a {
 }
 
 #content p {
-    color: rgb(58, 58, 58);
+    color: rgb(94, 94, 94);
     line-height: 1.5rem;
     margin-bottom: 10px;
 }
@@ -216,24 +216,24 @@ a {
     text-decoration: none;
 }
 
-
+/* 
 #profile {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
-}
+    gap: 3rem;
+} */
 
-#avatar_info {
+#Day_Date {
     display: flex;
     flex-direction: column;
-    color: rgb(0, 0, 0);
+    color: rgb(94, 94, 94);
     cursor: pointer;
 }
 
-#author_name {
-    color: blue;
-}
+/* #Day {
+    color: black
+} */
 
 
 /* footer start */

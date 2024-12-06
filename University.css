@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+}
+
+/* <!-- navigation bar start --> */
+.navbar {
+    width: 100%;
+    margin: 10px 0;
+    margin-top: 30px;
+}
+
+.navbar_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.nav_tag {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+}
+
+.myname {
+    color: black;
+}
+
+#talktome {
+    border: solid 2px black;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgb(88, 88, 88); 
+    transition: box-shadow 0.3s ease; 
+}
+
+#talktome:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    /* background-color: gray;
+    color: black;
+    border: none; */
+
+    /* Increases shadow on hover */
+}
+
+#home,
+#about,
+#contact {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 450;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+}
+
+#contact:hover {
+    color: rgb(111, 111, 111);
+    transform: scale(1.1);
+    transition-duration: 2ms;
+}
+
+#about:hover {
+    color: rgb(111, 111, 111);
+    transform: scale(1.1);
+    transition-duration: 2ms;
+}
+
+#home:hover {
+    color: rgb(111, 111, 111);
+    transform: scale(1.1);
+    transition-duration: 2ms;
+
+}
+/* <!-- navigation bar end --> */
+
+#uni_img_container {
+    width:100vw;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 50px solid #f1f1f1; 
+    border-radius: 50px; 
+    background-color: #fff; 
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#uni_img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the container proportionally */
+    border-radius: 20px;
+}
+
+#uni_img_container:hover #uni_img {
+    transform: scale(1.01);
+    transition-duration: 5rem;
+}
