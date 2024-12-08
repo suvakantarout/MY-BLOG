@@ -80,6 +80,7 @@ body {
     color: rgb(111, 111, 111);
     transform: scale(1.1);
     transition-duration: 2ms;
+    
 }
 
 #about:hover {
