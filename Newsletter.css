@@ -163,10 +163,21 @@ a {
 
 .form_container {
     /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     height: 90%;
     width: 50%;
     border: 1px solid rgb(201, 201, 201);
     border-radius: 20px;
+}
+
+#freelancing{
+    text-align: center;
+    color: gray;
+    line-height: 1.5rem;
 }
 
 .image_container {
