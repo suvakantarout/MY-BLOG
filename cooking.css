@@ -156,6 +156,19 @@ body {
 }
 /* main container end */
 
+/* Stoty telling start */
+.storytelling{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 2rem;
+    line-height: 1.5rem;
+    color: rgb(110, 110, 110);
+    font-size: medium;
+    font-weight: 400;
+}
+/* Storytelling end */
 
 /* footer start */
 

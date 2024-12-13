@@ -165,7 +165,6 @@ a {
 .about_me_container {
     height: 80%;
     width: 50%;
-    /* border: 1px solid rgb(201, 201, 201); */
     border-radius: 20px;
     display: flex;
     flex-direction: column;
