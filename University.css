@@ -123,3 +123,272 @@ body {
     transform: scale(1.01);
     transition-duration: 5rem;
 }
+
+.about_University p {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    line-height: 1.5rem;
+    color: rgb(110, 110, 110);
+    font-size: medium;
+    font-weight: 400;
+    margin-bottom: 1.5rem; /* Adds space between paragraphs */
+}
+
+.about_University p:first-of-type {
+    margin-top: 2rem;
+}
+
+/* footer start */
+
+.footer_container {
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    padding: 5rem;
+    margin-top: 5rem;
+}
+
+.footer_box {
+    display: flex;
+    max-width: 90%;
+    margin: 0px auto;
+    margin-bottom: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer_right_box {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.quick_access {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.stay_connected {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.legal {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer_left_box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer_image_box {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+#p1,
+#p2 {
+    font-size: small;
+    color: rgb(111, 111, 111);
+}
+
+#fhome,
+#fabout,
+#fcontact,
+#ftalktome {
+    font-size: small;
+    color: rgb(111, 111, 111);
+}
+
+#flegal1,
+#flegal2,
+#flegal3,
+#flegal4 {
+    font-size: small;
+    color: rgb(111, 111, 111);
+}
+
+/* footer end */
+
+
+/* Responsive Design for Mobile and Tablet Devices */
+@media screen and (max-width: 768px) {
+    .navbar_box {
+        flex-direction: column;
+        gap: 1rem;
+        max-width: 95%;
+    }
+
+    .nav_tag {
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #talktome {
+        width: 100px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+
+    #home, #about, #contact {
+        font-size: small;
+    }
+
+    #uni_img_container {
+        margin-top: 30px;
+    }
+
+    .about_University p {
+        max-width: 100%;
+        font-size: small;
+        line-height: 1.3rem;
+    }
+
+    .footer_box {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .footer_right_box {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer_left_box {
+        align-items: center;
+    }
+
+    .footer_image_box {
+        justify-content: center;
+    }
+
+    #fhome, #fabout, #fcontact, #ftalktome, #flegal1, #flegal2, #flegal3, #flegal4 {
+        font-size: x-small;
+    }
+
+    #p1, #p2 {
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar_box {
+        gap: 0.5rem;
+    }
+
+    #talktome {
+        width: 90px;
+        height: 30px;
+        font-size: 0.8rem;
+    }
+
+    .nav_tag {
+        gap: 1rem;
+    }
+
+    #home, #about, #contact {
+        font-size: x-small;
+    }
+
+    .about_University p {
+        font-size: x-small;
+        line-height: 1.2rem;
+    }
+
+    .footer_box {
+        gap: 1.5rem;
+    }
+
+    .footer_right_box, .footer_left_box {
+        gap: 1rem;
+    }
+
+    .footer_image_box {
+        gap: 0.3rem;
+    }
+
+    #p1, #p2 {
+        font-size: xx-small;
+    }
+}
+
+/* Add responsiveness for iPads */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .navbar_box {
+        max-width: 90%;
+    }
+
+    .nav_tag {
+        gap: 2rem;
+    }
+
+    #talktome {
+        width: 110px;
+        height: 38px;
+    }
+
+    .footer_box {
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .footer_right_box {
+        gap: 3rem;
+    }
+
+    #fhome, #fabout, #fcontact, #ftalktome, #flegal1, #flegal2, #flegal3, #flegal4 {
+        font-size: small;
+    }
+
+    #p1, #p2 {
+        font-size: small;
+    }
+}
+/* Uniform gap for paragraphs */
+p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width:90%; /* Ensures the text doesn't span too wide */
+    align-items: center; /* Optional: Aligns text for a cleaner look */
+}
+
+/* Adjust paragraph padding for mobile */
+@media screen and (max-width: 768px) {
+    p {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        max-width: 95%;
+    }
+}
+
+/* Adjust paragraph padding for small mobile devices */
+@media screen and (max-width: 480px) {
+    p {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        max-width: 95%;
+    }
+}
+
+/* Adjust paragraph padding for iPads */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    p {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        max-width: 85%;
+    }
+}
+
+/* Reasponsive end */
