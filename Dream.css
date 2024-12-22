@@ -127,21 +127,40 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.body_container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Optional: Makes the container fill the viewport height */
+}
 
-/* .container {
+.container {
     text-align: center;
     max-width: 800px;
     padding: 20px;
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-} */
+}
 
-.container img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 10px;
+#B_man_img {
+    width: 90%;
+    max-width: 90%;
+    height: 50%;
+    border-radius: 20px;
+    display: block; /* Ensures the image is treated as a block element */
+    margin: auto; /* Centers the image horizontally */
+    margin-top: 50px;
+}
+
+#resturant_img{
+    width: 90%;
+    max-width: 90%;
+    height: 20%;
+    border-radius: 20px;
+    display: block; /* Ensures the image is treated as a block element */
+    margin: auto; /* Centers the image horizontally */
+    margin-top: 50px;
 }
 
 h1 {
