@@ -118,6 +118,11 @@ a {
 
 /* Navigation bar end */
 
+#dream{
+    font-weight: 800;
+    margin-left: 215px;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -136,11 +141,9 @@ body {
 }
 
 .container {
-    text-align: center;
+    text-align: left;
     max-width: 800px;
-    padding: 30px;
-    /* background: #ededed; */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    padding: 20px;
     border-radius: 30px;
     border: 1px solid rgb(191, 191, 191);
     margin-top: 20px;
@@ -161,7 +164,7 @@ body {
     max-width: 90%;
     height: 20%;
     border-radius: 20px;
-    display: block; /* Ensures the image is treated as a block element */
+    display: block;
     margin: auto; /* Centers the image horizontally */
     margin-top: 50px;
 }
@@ -169,12 +172,18 @@ body {
 h1 {
     font-size: 2rem;
     color: #222;
+    margin-top: 50px;
 }
 
 p {
-    font-size: 1.2rem;
     line-height: 1.6;
     margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: rgb(92, 92, 92);
+    font-size: medium;
+    font-weight: 400;
 }
 
 /* footer start */
