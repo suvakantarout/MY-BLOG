@@ -149,6 +149,16 @@ body {
     margin-top: 20px;
 }
 
+#gym_img{
+    width: 100%;
+    max-width: 93%;
+    height: 20%;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
 #B_man_img {
     width: 100%;
     max-width: 93%;
@@ -156,7 +166,7 @@ body {
     border-radius: 30px;
     display: block; /* Ensures the image is treated as a block element */
     margin: auto; /* Centers the image horizontally */
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #resturant_img{
@@ -166,16 +176,27 @@ body {
     border-radius: 30px;
     display: block;
     margin: auto; /* Centers the image horizontally */
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 h1 {
+    width: 100%;
+    max-width: 94%; /* Matches the max-width of paragraphs */
     font-size: 2rem;
     color: #222;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: auto; /* Centers horizontally */
+    margin-right: auto; /* Centers horizontally */
 }
 
 p {
+    width: 100%;
+    max-width: 93%;
+    height: 20%;
+    border-radius: 30px;
+    display: block;
+    margin: auto; /* Centers the image horizontally */
+    margin-top: 50px;
     line-height: 1.6;
     margin-top: 15px;
     display: flex;
