@@ -169,18 +169,16 @@ a {
     border-radius: 20px;
     overflow: hidden;
     height: 450px;
-    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), 
-                box-shadow 0.5s cubic-bezier(0.25, 0.8, 0.25, 1); 
+    transition: transform 0.3s ease; 
     animation: scroll-animation both ease-in-out;
     animation-timeline: view(70vh 0px);
-    animation-range: contain 0% contain 50%;
+    animation-range: contain 0% contain 50%; 
 }
 
-.card_container:hover {
+.card_container:hover{
     transform: scale(1.02);
-    box-shadow: 0px 6px 12px rgba(74, 74, 74, 0.5);
+    box-shadow: 0px 6px 12px rgba(83, 83, 83, 0.5);
 }
-
 
 /* .card_container:hover .card_image {
     transform: scale(1.1);
