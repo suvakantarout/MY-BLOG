@@ -170,7 +170,7 @@ a {
     overflow: hidden;
     height: 450px;
     transition: transform 0.3s ease; 
-    animation: scroll-animation both;
+    animation: scroll-animation both ease-in-out;
     animation-timeline: view(70vh 0px);
     animation-range: contain 0% contain 50%;
 }
