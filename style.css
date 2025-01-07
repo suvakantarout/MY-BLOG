@@ -255,6 +255,7 @@ a {
     flex-direction: column;
     color: rgb(94, 94, 94);
     cursor: pointer;
+    padding: 20px;
 }
 
 /* #Day {
