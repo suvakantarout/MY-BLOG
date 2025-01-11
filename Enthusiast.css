@@ -257,6 +257,7 @@ a {
 
     .main_container {
         padding: 20px;
+        /* border: 1px solid black; */
     }
 
     .reverse {
@@ -266,9 +267,7 @@ a {
         text-align:justify;
         line-height: 1.3rem;
     }
-    .main_container{
-        border: 1px solid black;
-    }
+
 }
 /* Mobile */
 @media only screen and (max-width: 480px) {
@@ -288,7 +287,5 @@ a {
         flex-wrap: wrap-reverse !important;
     }
 }
-
-
 
 /* Responsive end */
