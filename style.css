@@ -345,14 +345,20 @@ a {
 
 /* Responsive start */
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){    /* I pad */
     /* footer */
     .footer_box{
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        justify-content: left;
+        /* align-items: center;
+        justify-content: center; */
 
     }
+    .footer_container {
+        padding: 1.3rem;
+
+    }
+  
     .footer_right_box{
         flex-direction: column;
         gap: 35px;
@@ -360,24 +366,22 @@ a {
     .footer_box{
         gap: 35px;
     }
-    .quick_access, .stay_connected, .legal{
+    /* .quick_access, .stay_connected, .legal{
         align-items: center;
         justify-content: center;
-    }
+    } */
     .footer_left_box{
         display: flex;
-        align-items: center;
-        justify-content: center;
+        /* align-items: center;
+        justify-content: center; */
     }
-    .footer_left_box, #p1, #p2{
+    /* .footer_left_box, #p1, #p2{
         text-align:center;
-    }
+    } */
 
 }
 
-@media only screen and (max-width: 480px){
-    .footer_box{
-        flex-direction: column;
-    }
+@media only screen and (max-width: 480px){   /* Mobile*/
+
 }
 /* Responsive end */
