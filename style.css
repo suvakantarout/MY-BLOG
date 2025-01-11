@@ -350,14 +350,14 @@ a {
     .footer_box{
         flex-direction: column;
         justify-content: left;
-        /* align-items: center;
-        justify-content: center; */
+        align-items: center;
+        justify-content: center;
 
     }
-    .footer_container {          
+    /* .footer_container {          
         padding: 3.5rem 1.3px;     /* padding(y axis x axis) */
 
-    }
+    /* } */
   
     .footer_right_box{
         flex-direction: column;
@@ -366,18 +366,18 @@ a {
     .footer_box{
         gap: 35px;
     }
-    /* .quick_access, .stay_connected, .legal{
+    .quick_access, .stay_connected, .legal{
         align-items: center;
         justify-content: center;
-    } */
-    /* .footer_left_box{
+    }
+    .footer_left_box{
         display: flex;
         align-items: center;
         justify-content: center;
-    } */
-    /* .footer_left_box, #p1, #p2{
+    }
+    .footer_left_box, #p1, #p2{
         text-align:center;
-    } */
+    }
 
 }
 
