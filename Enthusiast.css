@@ -263,7 +263,8 @@ a {
         flex-wrap: wrap-reverse !important;
     }
     .text{
-        text-align: justify;
+        text-align:justify;
+        line-height: 1.5rem;
     }
 }
 /* Mobile */
