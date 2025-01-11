@@ -133,6 +133,18 @@ a {
     margin: 0 auto;
     max-width: 95%;
 }
+.car_bike{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+.image1{
+    position: absolute;         /* IMPORTANT FOR FIT AN IMAGE */
+    object-position: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
 /* Enthusiast end */
 
 
