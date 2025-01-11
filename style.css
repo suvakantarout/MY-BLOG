@@ -354,8 +354,8 @@ a {
         justify-content: center; */
 
     }
-    .footer_container {
-        padding: 1.3rem;
+    .footer_container {          
+        padding: 4rem 1.3px;     /* padding(y axis x axis) */
 
     }
   
@@ -370,11 +370,11 @@ a {
         align-items: center;
         justify-content: center;
     } */
-    .footer_left_box{
+    /* .footer_left_box{
         display: flex;
-        /* align-items: center;
-        justify-content: center; */
-    }
+        align-items: center;
+        justify-content: center;
+    } */
     /* .footer_left_box, #p1, #p2{
         text-align:center;
     } */
