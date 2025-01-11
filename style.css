@@ -344,22 +344,40 @@ a {
 
 
 /* Responsive start */
+
 @media only screen and (max-width: 768px){
+    /* footer */
     .footer_box{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
     }
     .footer_right_box{
         flex-direction: column;
+        gap: 35px;
     }
     .footer_box{
-        gap: 25px;
+        gap: 35px;
     }
+    .quick_access, .stay_connected, .legal{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_left_box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_left_box, #p1, #p2{
+        text-align:center;
+    }
+
 }
 
-@media only screen and (max-width: 480px){
+/* @media only screen and (max-width: 480px){
     .footer_box{
         flex-direction: column;
     }
-}
+} */
 /* Responsive end */
