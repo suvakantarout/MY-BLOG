@@ -160,7 +160,6 @@ a {
 .text {
     color: rgb(94, 94, 94);
     line-height: 1.8rem;
-
 }
 
 /* Enthusiast end */
@@ -262,6 +261,9 @@ a {
 
     .reverse {
         flex-wrap: wrap-reverse !important;
+    }
+    .text{
+        text-align: justify;
     }
 }
 /* Mobile */
