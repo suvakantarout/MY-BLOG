@@ -309,7 +309,7 @@ a {
 
 }
 
-/* Mobile
+/* Mobile */
 @media only screen and (max-width: 480px) {
     .image img {
         width: 90vw;
@@ -326,6 +326,6 @@ a {
     .reverse {
         flex-wrap: wrap-reverse !important;
     }
-} */
+}
 
 /* Responsive end */
