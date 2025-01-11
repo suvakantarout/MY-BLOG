@@ -341,3 +341,25 @@ a {
 }
 
 /* footer end */
+
+
+/* Responsive start */
+@media only screen and (max-width: 768px){
+    .footer_box{
+        flex-direction: column;
+
+    }
+    .footer_right_box{
+        flex-direction: column;
+    }
+    .footer_box{
+        gap: 25px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .footer_box{
+        flex-direction: column;
+    }
+}
+/* Responsive end */
