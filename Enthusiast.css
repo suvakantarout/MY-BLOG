@@ -1,4 +1,4 @@
-*{
+* {
     font-family: 'Inter', sans-serif;
     margin: 0px;
     padding: 0px;
@@ -124,7 +124,7 @@ a {
 /* Navigation bar end */
 
 /* Enthusiast start */
-.main_container{
+.main_container {
     /* border: 1px solid black; */
     border-radius: 10px;
     display: flex;
@@ -133,13 +133,15 @@ a {
     margin: 0 auto;
     max-width: 95%;
 }
-.car_bike{
+
+.car_bike {
 
     display: flex;
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
 }
-.card{
+
+.card {
     display: flex;
     /* flex-wrap: wrap; */
     gap: 30px;
@@ -147,17 +149,20 @@ a {
     justify-content: center;
     margin: 10px 0px;
 }
-.image img{
+
+.image img {
     aspect-ratio: 16 / 9;
     width: 40dvw;
     border-radius: 30px;
     /* margin:20px 30px; */
 }
-.text{
+
+.text {
     color: rgb(94, 94, 94);
     line-height: 1.8rem;
 
 }
+
 /* Enthusiast end */
 
 
@@ -238,3 +243,46 @@ a {
 
 /* footer end */
 
+/* Responsive start */
+/* ipad */
+@media only screen and (max-width: 768px) {
+
+    .card {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .image img {
+        width: 80vw;
+    }
+
+    .main_container {
+        padding: 20px;
+    }
+
+    .reverse {
+        flex-wrap: wrap-reverse !important;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    .image img {
+        width: 90vw;
+    }
+
+    .main_container {
+        padding: 15px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .reverse {
+        flex-wrap: wrap-reverse !important;
+    }
+}
+
+
+
+/* Responsive end */
