@@ -255,14 +255,18 @@ body {
         text-align:center;
     }
     .about_University p {
-        /* color: rgb(70, 70, 70); */
-        color: gray;
+        color: rgb(70, 70, 70);
         line-height: 1.3rem;
         font-size:medium;
         font-weight: 250;
         max-width: 85%;
         justify-content: center;
         align-items: center;
+        font-size: 14px;
+    }
+    #uni_img {
+        width: 90vw;
+        /* border-radius: 30px; */
     }
 
 }

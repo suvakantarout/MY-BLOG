@@ -303,20 +303,13 @@ a {
     }
     .text{
         text-align:start;
+        font-size: 14px;
     }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 
 }
 
 /* Mobile */
 @media only screen and (max-width: 480px) {
-    .image img {
-        width: 90vw;
-    }
-
-    .main_container {
-        padding: 15px;
-    }
-
     .text {
         font-size: 14px;
     }
