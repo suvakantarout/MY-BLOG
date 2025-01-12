@@ -97,7 +97,7 @@ body {
 }
 /* <!-- navigation bar end --> */
 
-#uni_img_container {
+.uni_img_container {
     width:100vw;
     margin: auto;
     overflow: hidden;
@@ -111,17 +111,16 @@ body {
     justify-content: center;
 }
 
-#uni_img {
-    width: 100%;
-    height: auto;
-    object-fit: cover; /* Ensures the image covers the container proportionally */
-    /* border-radius: 20px; */
-}
-
-#uni_img_container:hover #uni_img {
-    transform: scale(1.01);
-    transition-duration: 5rem;
-}
+.uni_img_container img{
+    aspect-ratio: 16 / 9;
+    width: 95dvw;
+    height: 50dvh;
+    border-radius: 30px;
+} 
+.uni_img_container img:hover{
+    transition: transform 0.3s ease; 
+    transform: scale(1.02);
+} 
 
 .about_University p {
     max-width: 90%;
@@ -264,11 +263,11 @@ body {
         align-items: center;
         font-size: 15px;
     }
-    #uni_img {
-        height: 150px;
-        /* width: 300px; */
-        width: 100vw;
-        /* border-radius: 30px; */
+    .uni_img_container img {
+        width: 90vw; /* Adjust width for tablets */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 50px; /* Slightly rounded corners */
+
     }
 
 }
