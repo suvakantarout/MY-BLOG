@@ -264,9 +264,9 @@ body {
         font-size: 15px;
     }
     .uni_img_container img {
-        width: 90vw; /* Adjust width for tablets */
+        width: 100dvw; /* Adjust width for tablets */
         height: auto; /* Maintain aspect ratio */
-        border-radius: 50px; /* Slightly rounded corners */
+        /* border-radius: 50px; Slightly rounded corners */
 
     }
 
