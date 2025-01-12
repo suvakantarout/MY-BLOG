@@ -266,7 +266,7 @@ body {
     }
     #uni_img {
         width: 90vw;
-        /* border-radius: 30px; */
+        border-radius: 30px;
     }
 
 }
