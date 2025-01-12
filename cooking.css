@@ -285,14 +285,7 @@ body {
         text-align:center;
     }
     .storytelling{
-        /* max-width: 80%; */
-        /* display: flex;
-        flex-direction: column;
-        margin: auto;
-        gap: 2rem;
-        line-height: 1.5rem;
-        color: rgb(113, 113, 113); */
-        font-size:x-small;
+        font-size: small;
         font-weight: 100;
     }
 
