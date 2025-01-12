@@ -164,7 +164,7 @@ body {
     margin: auto;
     gap: 2rem;
     line-height: 1.5rem;
-    color: rgb(92, 92, 92);
+    color: rgb(113, 113, 113);
     font-size: medium;
     font-weight: 400;
 }
@@ -267,10 +267,10 @@ body {
   
     .footer_right_box{
         flex-direction: column;
-        gap: 35px;
+        gap: 40px;
     }
     .footer_box{
-        gap: 35px;
+        gap: 40px;
     }
     .quick_access, .stay_connected, .legal{
         align-items: center;
@@ -283,6 +283,17 @@ body {
     }
     .footer_left_box, #p1, #p2{
         text-align:center;
+    }
+    .storytelling{
+        /* max-width: 80%; */
+        /* display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 2rem;
+        line-height: 1.5rem;
+        color: rgb(113, 113, 113); */
+        font-size:x-small;
+        font-weight: 100;
     }
 
 }
