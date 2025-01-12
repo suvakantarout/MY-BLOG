@@ -265,8 +265,8 @@ body {
         font-size: 14px;
     }
     #uni_img {
-        width: 90vw;
-        border-radius: 30px;
+        width: 100vw;
+        /* border-radius: 30px; */
     }
 
 }
