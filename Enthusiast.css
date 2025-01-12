@@ -249,9 +249,7 @@ a {
     .card {
         flex-wrap: wrap;
         gap: 20px;
-        animation: scroll-animation both ease-in-out;
-        animation-timeline: view(70vh 0px);
-        animation-range: contain 0% contain 50%; 
+        
     }
 
     .image img {
@@ -270,9 +268,6 @@ a {
     .text {
         text-align: justify;
         line-height: 1.3rem;
-        animation: scroll-animation both ease-in-out;
-        animation-timeline: view(70vh 0px);
-        animation-range: contain 0% contain 50%; 
     }
 
     /* Footer */
