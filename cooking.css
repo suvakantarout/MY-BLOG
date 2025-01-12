@@ -285,9 +285,10 @@ body {
         text-align:center;
     }
     .storytelling{
-        line-height: 0px;
+        line-height: 1.3rem;
         font-size:medium;
-        font-weight: 300;
+        font-weight: 350;
+        max-width: 90%;
     }
 
 }
