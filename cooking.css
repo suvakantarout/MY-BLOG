@@ -285,8 +285,9 @@ body {
         text-align:center;
     }
     .storytelling{
+        color: rgb(98, 98, 98);
         line-height: 1.3rem;
-        font-size:small;
+        font-size:medium;
         font-weight: 300;
         max-width: 90%;
     }
