@@ -134,16 +134,15 @@ a {
     max-width: 95%;
 }
 
-.car_bike {
+/* .car_bike {
 
     display: flex;
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
-}
+    flex-direction: row; 
+    flex-wrap: wrap; 
+} */
 
 .card {
     display: flex;
-    /* flex-wrap: wrap; */
     gap: 30px;
     align-items: center;
     justify-content: center;
