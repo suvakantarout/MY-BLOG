@@ -323,10 +323,18 @@ a {
     }
     .about_container{
         flex-direction: column-reverse;
-        height: 100vh;        
-    }
-    .about_container{
+        height: 100vh;    
         padding: 30px;
+        margin: 48px 30px 48px 20px; 
+    }
+    .about_me_container{
+        display: flex;
+        height: auto;
+        width: auto;
+    }
+    .image_container{
+        aspect-ratio: 16 / 9;
+        width: 80dvw;
     }
 
 }
