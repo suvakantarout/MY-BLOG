@@ -358,7 +358,11 @@ p {
     .container{
         margin: 0px 10px;
     }
-
+    .dream{
+        width: 100%;
+        justify-content: left;
+        padding: 0px 0px 30px 40px;   /* padding clock wise(clock wise->top,right,buttom,left) */
+    }
 }
 
 
