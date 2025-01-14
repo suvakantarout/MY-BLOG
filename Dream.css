@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+html
+{
+    scroll-behavior: smooth;
+}
+
+@keyframes scroll-animation
+{
+    from
+    {
+        opacity: 0;
+        /* scale: 0.5; */
+        transform: translateY(5vh);
+    }
+
+    to
+    {
+        opacity: 1;
+        /* scale: 1; */
+    }
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -118,9 +139,12 @@ a {
 
 /* Navigation bar end */
 
-#dream{
+.dream{
     font-weight: 800;
-    margin-left: 215px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 body {
@@ -135,9 +159,9 @@ body {
 }
 .body_container {
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    height: 100vh; /* Optional: Makes the container fill the viewport height */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
 }
 
 .container {
@@ -157,6 +181,9 @@ body {
     display: block;
     margin: auto;
     margin-top: 20px;
+    animation: scroll-animation both ease-in-out;
+    animation-timeline: view(70vh 0px);
+    animation-range: contain 0% contain 50%; 
 }
 
 #B_man_img {
@@ -167,6 +194,9 @@ body {
     display: block; /* Ensures the image is treated as a block element */
     margin: auto; /* Centers the image horizontally */
     margin-top: 30px;
+    animation: scroll-animation both ease-in-out;
+    animation-timeline: view(70vh 0px);
+    animation-range: contain 0% contain 50%; 
 }
 
 #resturant_img{
@@ -177,16 +207,9 @@ body {
     display: block;
     margin: auto; /* Centers the image horizontally */
     margin-top: 30px;
-}
-
-h1 {
-    width: 100%;
-    max-width: 94%; /* Matches the max-width of paragraphs */
-    font-size: 2rem;
-    color: #222;
-    margin-top: 30px;
-    margin-left: auto; /* Centers horizontally */
-    margin-right: auto; /* Centers horizontally */
+    animation: scroll-animation both ease-in-out;
+    animation-timeline: view(70vh 0px);
+    animation-range: contain 0% contain 50%; 
 }
 
 p {
@@ -205,7 +228,11 @@ p {
     color: rgb(92, 92, 92);
     font-size: medium;
     font-weight: 400;
+    animation: scroll-animation both ease-in-out;
+    animation-timeline: view(70vh 0px);
+    animation-range: contain 0% contain 50%; 
 }
+
 
 /* footer start */
 
@@ -322,7 +349,18 @@ p {
         text-align:center;
     }
 
+    h1{
+        display: flex;
+    }
+    .navbar_box{
+        overflow: hidden;
+    }
+    .container{
+        margin: 0px 10px;
+    }
+
 }
+
 
 @media only screen and (max-width: 480px){   /* Mobile*/
 
