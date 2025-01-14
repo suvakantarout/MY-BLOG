@@ -139,7 +139,7 @@ a {
 
 /* Navigation bar end */
 
-.dream{
+#dream{
     font-weight: 800;
     display:flex;
     align-items: center;
@@ -358,7 +358,7 @@ p {
     .container{
         margin: 0px 15px;
     }
-    .dream{
+    #dream{
         width: 100%;
         justify-content: left;
         padding: 0px 0px 25px 30px;   /* padding clock wise(clock wise->top,right,buttom,left) */
