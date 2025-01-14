@@ -318,6 +318,13 @@ a {
     .footer_left_box, #p1, #p2{
         text-align:center;
     }
+    .about_container{
+        flex-direction: column-reverse;
+        height: 100vh;        
+    }
+    .about_container{
+        padding: 30px;
+    }
 
 }
 
