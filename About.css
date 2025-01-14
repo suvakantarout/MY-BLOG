@@ -325,7 +325,7 @@ a {
         flex-direction: column-reverse;
         height: 100vh;    
         padding: 30px;
-        margin: 48px 35px 48px 20px; 
+        margin: 48px 25px 48px 20px; 
     }
     .about_me_container{
         display: flex;
