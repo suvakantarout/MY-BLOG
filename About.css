@@ -318,6 +318,9 @@ a {
     .footer_left_box, #p1, #p2{
         text-align:center;
     }
+    .body_container{
+        overflow: hidden;
+    }
     .about_container{
         flex-direction: column-reverse;
         height: 100vh;        
