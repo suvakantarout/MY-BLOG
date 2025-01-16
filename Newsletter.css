@@ -321,7 +321,7 @@ a {
     .newsletter_container {
         flex-direction: column;
         gap: 2rem;
-        margin-top: 7rem;
+        margin-top: 5rem;
     }
 
     .form_container {
