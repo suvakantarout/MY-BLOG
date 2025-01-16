@@ -335,17 +335,21 @@ a {
     }  
 
     #form_name,
-    #form_email,
-    #form_button {
+    #form_email
+    {
         display: flex;
         width: 300px;
-        padding: 10px;
+    }
+    #form_button{
+        justify-content: center;
+        align-items: center;
+        width: 300px;
     }
     .navbar_box{
         overflow: hidden;
     }
     #freelancing{
-        text-align: center;
+        text-align: start;
     }
 
 
