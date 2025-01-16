@@ -193,6 +193,7 @@ a {
     justify-content: space-evenly;
 } */
 #form_name{
+    display: flex;
     height: 45px;
     width: 400px;
     border-radius: 10px;
@@ -201,6 +202,7 @@ a {
     border: none;
 }
 #form_email{
+    display: flex;
     height: 45px;
     width: 400px;
     border-radius: 10px;
@@ -209,6 +211,7 @@ a {
     padding: 10px;
 }
 #form_button {
+    display: flex;
     display: inline-block;
     text-align: center;
     height: 40px;
@@ -335,13 +338,14 @@ a {
     #form_email,
     #form_button {
         display: flex;
-        width: 230px;
+        width: 350px;
+        padding: 10px;
     }
     .navbar_box{
         overflow: hidden;
     }
     #freelancing{
-        text-align: start;
+        text-align: center;
     }
     /* .form_container{
         padding: 50px;
