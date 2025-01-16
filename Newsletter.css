@@ -136,11 +136,10 @@ a {
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 3rem
 }
 
 .form_container {
-    /* background-color: beige; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,12 +149,14 @@ a {
     width: 50%;
     border: 1px solid rgb(201, 201, 201);
     border-radius: 20px;
+    padding: 10px;
 }
 
 #freelancing{
     text-align: center;
     color: gray;
     line-height: 1.5rem;
+    margin: 10px;
 }
 
 .image_container {
@@ -184,13 +185,13 @@ a {
     padding: 100px;
 }
 
-.form{
+/* .form{
     display:flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
     justify-content: space-evenly;
-}
+} */
 #form_name{
     height: 45px;
     width: 400px;
@@ -317,30 +318,35 @@ a {
     .newsletter_container {
         flex-direction: column;
         gap: 2rem;
+        margin-top: 2rem;
     }
 
     .form_container {
-        width: 80%;
+        width: 100%;
         padding: 1.5rem;
     }
-
+ 
     .image_container {
         width: 80%;
         height: auto;
-    }   
+    }  
 
     #form_name,
     #form_email,
     #form_button {
-        max-width: 100%;
+        display: flex;
+        width: 230px;
     }
     .navbar_box{
         overflow: hidden;
     }
-    .form_container{
+    #freelancing{
+        text-align: start;
+    }
+    /* .form_container{
         padding: 50px;
         margin: 70px;
-    }
+    } */
 
 
     /* footer */
