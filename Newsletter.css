@@ -338,7 +338,7 @@ a {
     #form_email,
     #form_button {
         display: flex;
-        width: 350px;
+        width: 300px;
         padding: 10px;
     }
     .navbar_box{
