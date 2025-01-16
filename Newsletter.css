@@ -338,12 +338,12 @@ a {
     #form_email
     {
         display: flex;
-        width: 300px;
+        width: 250px;
     }
     #form_button{
         justify-content: center;
         align-items: center;
-        width: 300px;
+        width: 250px;
     }
     .navbar_box{
         overflow: hidden;
