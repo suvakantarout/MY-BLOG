@@ -263,7 +263,7 @@ a {
     padding: 1rem;
     border-radius: 8px;
     width: 90dvw;
-    height: 40dvh;
+    height: 50dvh;
     z-index: 100;
     transition: all 3s;
 }
