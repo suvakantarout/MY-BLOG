@@ -262,8 +262,8 @@ a {
     border: 1.5px solid rgb(201, 201, 201);
     padding: 1rem;
     border-radius: 8px;
-    /* width: 380px; Adjust according to your design */
-    height: 50dvh;
+    width: 90dvw;
+    height: 40dvh;
     z-index: 100;
     transition: all 3s;
 }
