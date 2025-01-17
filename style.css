@@ -258,13 +258,12 @@ a {
     position: absolute;
     top: 80px; /* Adjust to your navbar height */
     right: 10px;
-    left: 10px;
     background-color: rgb(255, 255, 255);
     border: 1.5px solid rgb(201, 201, 201);
     padding: 1rem;
     border-radius: 8px;
     /* width: 380px; Adjust according to your design */
-    height: 100dvh;
+    height: 50dvh;
     z-index: 100;
     transition: all 3s;
 }
