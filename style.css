@@ -263,7 +263,7 @@ a {
     padding: 1rem;
     border-radius: 8px;
     width: 380px; /* Adjust according to your design */
-    /* height: 36dvh; */
+    height: 100dvh;
     z-index: 100;
     transition: all 3s;
 }
