@@ -39,6 +39,7 @@ body {
 
 .myname {
     color: black;
+    /* margin-left: -8px; */
 }
 
 #talktome {
@@ -267,7 +268,12 @@ body {
         width: 100dvw; /* Adjust width for tablets */
         height: auto; /* Maintain aspect ratio */
         /* border-radius: 50px; Slightly rounded corners */
-
+    }
+    #home,
+    #about,
+    #contact,
+    #talktome{
+        display: none;
     }
 
 }

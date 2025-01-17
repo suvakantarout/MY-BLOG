@@ -38,6 +38,7 @@ body {
 
 .myname {
     color: black;
+    margin-left: -15px;
 }
 
 #talktome {
@@ -51,8 +52,8 @@ body {
     background-color: black;
     color: white;
     cursor: pointer;
-    box-shadow: 0px 4px 8px rgb(88, 88, 88); 
-    transition: box-shadow 0.3s ease; 
+    box-shadow: 0px 4px 8px rgb(88, 88, 88);
+    transition: box-shadow 0.3s ease;
 }
 
 #talktome:hover {
@@ -108,20 +109,23 @@ body {
 #Recipes {
     display: flex;
     max-width: 83%;
-    margin: 3rem auto; /* Adds vertical spacing around #Recipes */
+    margin: 3rem auto;
+    /* Adds vertical spacing around #Recipes */
     flex-direction: row;
     font-size: larger;
 }
 
-/* main container start */ 
+/* main container start */
 .main_container {
     display: grid;
     /* /* row-gap: 1.3rem; */
     /* grid-template-columns: repeat(3, 2fr); */
-    grid-template-columns: repeat(auto-fit ,minmax(300px, 1fr ));  /*Automatically remain responsive*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /*Automatically remain responsive*/
     row-gap: 1.5rem;
     max-width: 89%;
-    margin: 3rem auto; /* Adds space above and below the main container */
+    margin: 3rem auto;
+    /* Adds space above and below the main container */
 }
 
 
@@ -133,11 +137,11 @@ body {
     overflow: hidden;
     height: 350px;
     width: 350px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
     /* Adjust this value to set the desired card height */
 }
 
-.card_container:hover{
+.card_container:hover {
     transform: scale(1.02);
     box-shadow: 0px 6px 12px rgba(83, 83, 83, 0.5);
 }
@@ -148,17 +152,19 @@ body {
     height: 250px;
 }
 
-.card_image {   
-    position: absolute;         /* IMPORTANT FOR FIT AN IMAGE */
+.card_image {
+    position: absolute;
+    /* IMPORTANT FOR FIT AN IMAGE */
     object-position: center;
     object-fit: cover;
     height: 100%;
     width: 100%;
 }
+
 /* main container end */
 
 /* Stoty telling start */
-.storytelling{
+.storytelling {
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -252,56 +258,76 @@ body {
 
 /* Responsive start */
 
-@media only screen and (max-width: 768px){    /* I pad */
+@media only screen and (max-width: 768px) {
+
     /* footer */
-    .footer_box{
+    .footer_box {
         flex-direction: column;
         justify-content: left;
         align-items: center;
         justify-content: center;
 
     }
+
     /* .footer_container {          
         padding: 3.5rem 1.3px;     /* padding(y axis x axis) */
 
     /* } */
-  
-    .footer_right_box{
+
+    .footer_right_box {
         flex-direction: column;
         gap: 40px;
     }
-    .footer_box{
+
+    .footer_box {
         gap: 40px;
     }
-    .quick_access, .stay_connected, .legal{
+
+    .quick_access,
+    .stay_connected,
+    .legal {
         align-items: center;
         justify-content: center;
     }
-    .footer_left_box{
+
+    .footer_left_box {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .footer_left_box, #p1, #p2{
-        text-align:center;
+
+    .footer_left_box,
+    #p1,
+    #p2 {
+        text-align: center;
     }
-    .storytelling{
+
+    .storytelling {
         color: rgb(70, 70, 70);
         line-height: 1.3rem;
-        font-size:medium;
+        font-size: medium;
         font-weight: 300;
         max-width: 85%;
         justify-content: center;
         align-items: center;
         font-size: 15px;
     }
-    .body_container{
+
+    .body_container {
         overflow: hidden;
+    }
+    #home,
+    #about,
+    #contact,
+    #talktome{
+        display: none;
     }
 
 }
 
-@media only screen and (max-width: 480px){   /* Mobile*/
+@media only screen and (max-width: 480px) {
+    /* Mobile*/
 
 }
+
 /* Responsive end */

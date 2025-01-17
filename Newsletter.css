@@ -33,6 +33,7 @@
 
 .myname {
     color: black;
+    padding: 15px 0px 0px 0px;
 }
 
 #talktome {
@@ -384,6 +385,12 @@ a {
     }
     .footer_left_box, #p1, #p2{
         text-align:center;
+    }
+    #home,
+    #about,
+    #contact,
+    #talktome{
+        display: none;
     }
 
 }

@@ -53,6 +53,8 @@ body {
 
 .myname {
     color: black;
+    padding: 15px 0px 0px 0px;
+    /* margin-left: -15px; */
 }
 
 #talktome {
@@ -335,6 +337,12 @@ a {
     .image_container{
         aspect-ratio: 16 / 9;
         width: 80dvw;
+    }
+    #home,
+    #about,
+    #contact,
+    #talktome{
+        display: none;
     }
 
 }
