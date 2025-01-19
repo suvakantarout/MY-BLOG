@@ -175,7 +175,7 @@ body {
     margin-top: 20px;
 }
 
-#gym_img{
+.D{
     width: 100%;
     max-width: 93%;
     height: 20%;
@@ -183,32 +183,6 @@ body {
     display: block;
     margin: auto;
     margin-top: 20px;
-    animation: scroll-animation both ease-in-out;
-    animation-timeline: view(70vh 0px);
-    animation-range: contain 0% contain 50%; 
-}
-
-#B_man_img {
-    width: 100%;
-    max-width: 93%;
-    height: 50%;
-    border-radius: 30px;
-    display: block; /* Ensures the image is treated as a block element */
-    margin: auto; /* Centers the image horizontally */
-    margin-top: 30px;
-    animation: scroll-animation both ease-in-out;
-    animation-timeline: view(70vh 0px);
-    animation-range: contain 0% contain 50%; 
-}
-
-#resturant_img{
-    width: 100%;
-    max-width: 93%;
-    height: 20%;
-    border-radius: 30px;
-    display: block;
-    margin: auto; /* Centers the image horizontally */
-    margin-top: 30px;
     animation: scroll-animation both ease-in-out;
     animation-timeline: view(70vh 0px);
     animation-range: contain 0% contain 50%; 
@@ -233,6 +207,10 @@ p {
     animation: scroll-animation both ease-in-out;
     animation-timeline: view(70vh 0px);
     animation-range: contain 0% contain 50%; 
+}
+h1{
+    margin: 0px 0px 0px 25px;
+    padding: 30px 0px 0px 0px;
 }
 
 
@@ -351,9 +329,9 @@ p {
         text-align:center;
     }
 
-    h1{
+    /* h1{
         display: flex;
-    }
+    } */
     .navbar_box{
         overflow: hidden;
     }
