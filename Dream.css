@@ -380,7 +380,7 @@ p {
         font-size: x-large;
         line-height: 2rem;
     }
-    #B_man_img, #gym_img {
+    #B_man_img, #gym_img, #resturant_img  {
         border-radius: 10px;
     }
 }
