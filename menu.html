@@ -1,0 +1,106 @@
+<div class="navbar_box">
+    <a href="index.html" class="myname">
+        <h3>SUVAKANTROUT</h3>
+    </a>
+
+    <!-- Hamburger Icon for Mobile -->
+    <div class="hamburger">
+        <i class="ri-menu-line"></i>
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="nav_links">
+        <a href="index.html" id="home">Home</a>
+        <a href="About.html" id="about">About</a>
+        <a href="Newsletter.html" id="contact">Contact</a>
+        <a href="https://topmate.io/suvakanta_rout" id="talktome">Talk to Me</a>
+    </div>
+</div>
+
+<!-- CSS -->
+
+.navbar {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.navbar_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 10px 40px 0px 40px;
+}
+
+.nav_tag {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger i {
+    font-size: 1.5rem;
+}
+.nav_links {
+    display: flex;
+    gap: 3rem;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.hamburger i {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+<!-- Responsive -->
+
+/* Nav-bar */
+.nav_tag {
+    display: none; 
+}
+.nav_links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.nav_links a {
+    padding: 8px 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav_links a:hover {
+    background-color: #f0f0f0;
+}
+
+.hamburger {
+    display: block;
+}
+.navbar_box{
+    background-color: rgb(248, 248, 248);
+}
+
+
+<!-- JS -->
+
+<script src="Nav.js"></script>
