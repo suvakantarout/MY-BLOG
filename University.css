@@ -5,7 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'proxima-nova', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+        Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 body {

@@ -25,7 +25,8 @@ html
     margin: 0px;
     padding: 0px;
     text-decoration: none;
-    font-family: 'proxima-nova', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+        Helvetica, Arial, "Lucida Grande", sans-serif;
     box-sizing: border-box;
 }
 /* navigation bar start */
