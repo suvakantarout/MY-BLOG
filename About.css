@@ -9,19 +9,6 @@
         Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-/* .body_container{
-    height: 100vh;
-    width: 100vw;
-} */
-
-.body_container {
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    margin: 0px auto;
-    display: grid;
-}
 
 body {
     height: 100vh;
@@ -38,11 +25,12 @@ body {
 
 .navbar_box {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 85%;
-    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 0px 40px 0px 40px;
 }
 
 .nav_tag {
@@ -50,6 +38,19 @@ body {
     flex-direction: row;
     gap: 3rem;
     align-items: center;
+    justify-content: space-between;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger i {
+    font-size: 1.5rem;
+}
+.nav_links {
+    display: flex;
+    gap: 3rem;
 }
 
 .myname {
@@ -202,6 +203,16 @@ a {
 #aboutme {
     color: rgb(80, 80, 80);
 }
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.hamburger i {
+    font-size: 1.5rem;
+    color: #333;
+}
 
 /* About end */
 
@@ -333,10 +344,42 @@ a {
         text-align: center;
     }
 
-    .navbar_box {
+    /* Nav-bar */
+     .nav_tag {
+        display: none; 
+    }
+    .nav_links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+    }
+
+    .nav_links a {
+        padding: 8px 10px;
+        color: #333;
+        text-decoration: none;
+    }
+
+    .nav_links a:hover {
+        background-color: #f0f0f0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    .navbar_box{
+        background-color: rgb(248, 248, 248);
         overflow: hidden;
     }
 
+    /* Body */
     .about_container {
         flex-direction: column-reverse;
         height: 100vh;
