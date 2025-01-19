@@ -358,7 +358,7 @@ h1{
         font-size: x-large;
         line-height: 2rem;
     }
-    #B_man_img, #gym_img, #resturant_img  {
+    .D{
         border-radius: 10px;
     }
 }
