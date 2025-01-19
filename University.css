@@ -277,9 +277,10 @@ body {
         display: none;
     }
     .about_University p {
-        line-height: 1.8rem;
+        line-height: 1.7rem;
         color: rgb(73, 73, 73);
-        font-weight: 500;
+        font-weight: 400;
+        font-size: large;
     }
 
 }
