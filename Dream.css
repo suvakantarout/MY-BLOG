@@ -371,10 +371,14 @@ p {
         display: none;
     }
     p{
-        line-height: 2.5rem;
+        line-height: 1.5rem;
         color: rgb(73, 73, 73);
+    }
+    h1{
+        margin: 0px 0px 0px 1.5px;
+        padding: 10px 0px 0px 10px;
         font-size: x-large;
-        font-weight: 500;
+        line-height: 2rem;
     }
 }
 
