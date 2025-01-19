@@ -2,7 +2,7 @@
 
 * {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-        Helvetica, Arial, "Lucida Grande", sans-serif;
+    Helvetica, Arial, "Lucida Grande", sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -374,8 +374,32 @@ a {
         display: none; /* Hide the regular navbar links */
     }
 
-    .hamburger-icon {
-        display: block; /* Show hamburger icon */
+
+    #content p {
+        color: rgb(73, 73, 73);
+        line-height: 1.5rem;
+    }
+    #paragraph {
+        font-size: large;
+        line-height: 1.7rem;
+        font-weight: 400;
+        color: rgb(58, 58, 58);
+    }
+    #headertitle {
+        margin-top: 2rem;
+    }
+    #Day_Date {
+        color: rgb(73, 73, 73);
+    }
+    /* .body_container{
+        background-color: rgb(248, 248, 248);
+        /* border-radius: 10px; */
+    /* } */ 
+    body{
+        background-color: rgb(248, 248, 248);
+    }
+    .body_container {
+        background-color: rgb(248, 248, 248);
     }
 }
 
