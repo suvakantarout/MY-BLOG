@@ -16,19 +16,14 @@ body {
 }
 
 /* <!-- navigation bar start --> */
-.navbar {
-    width: 100%;
-    margin: 10px 0;
-    margin-top: 30px;
-}
-
 .navbar_box {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 85%;
-    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 10px 30px 0px 50px;
 }
 
 .nav_tag {
@@ -36,6 +31,29 @@ body {
     flex-direction: row;
     gap: 3rem;
     align-items: center;
+    justify-content: space-between;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger i {
+    font-size: 1.5rem;
+}
+.nav_links {
+    display: flex;
+    gap: 3rem;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.hamburger i {
+    font-size: 1.5rem;
+    color: #333;
 }
 
 .myname {
@@ -270,18 +288,51 @@ body {
         height: auto; /* Maintain aspect ratio */
         /* border-radius: 50px; Slightly rounded corners */
     }
-    #home,
-    #about,
-    #contact,
-    #talktome{
-        display: none;
-    }
+
     .about_University p {
         line-height: 1.7rem;
         color: rgb(73, 73, 73);
         font-weight: 400;
         font-size: large;
     }
+
+    /* Navbar */
+    .nav_tag {
+        display: none; 
+    }
+    .nav_links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+    }
+    
+    .nav_links a {
+        padding: 8px 10px;
+        color: #333;
+        text-decoration: none;
+    }
+    
+    .nav_links a:hover {
+        background-color: #f0f0f0;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+    .navbar_box{
+        background-color: rgb(248, 248, 248);
+        border-bottom: 1px solid rgb(208, 208, 208);
+        margin: 0px 0px 0px 0px;
+        padding: 25px 15px 27px 30px;
+    }
+    
 
 }
 

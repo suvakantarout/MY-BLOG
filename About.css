@@ -41,12 +41,15 @@ body {
     justify-content: space-between;
 }
 .hamburger {
-    display: none;
+    display: none; 
     cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
 }
 
 .hamburger i {
     font-size: 1.5rem;
+    color: #333;
 }
 .nav_links {
     display: flex;

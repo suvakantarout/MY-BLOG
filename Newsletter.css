@@ -11,18 +11,48 @@
 
 /* navigation bar start */
 
-.navbar {
+/* .navbar {
     width: 100%;
     margin: 10px 0;
-}
-
+} */
 .navbar_box {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 85%;
-    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 10px 30px 0px 50px;
+}
+
+.nav_tag {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger i {
+    font-size: 1.5rem;
+}
+.nav_links {
+    display: flex;
+    gap: 3rem;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.hamburger i {
+    font-size: 1.5rem;
+    color: #333;
 }
 
 .nav_tag {
@@ -318,8 +348,45 @@ a {
 
 @media only screen and (max-width: 768px){    /* I pad */
     /* Navbar */
+    
+    .navbar_box{
+        background-color: rgb(248, 248, 248);
+        border-bottom: 1px solid rgb(208, 208, 208);
+        margin: 0px 0px 0px 0px;
+        padding: 10px 15px 25px 34px;
+    }
 
-    /* content */
+    .nav_tag {
+        display: none; 
+    }
+    .nav_links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+    }
+    
+    .nav_links a {
+        padding: 8px 10px;
+        color: #333;
+        text-decoration: none;
+    }
+    
+    .nav_links a:hover {
+        background-color: #f0f0f0;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+    
+    /* Body */
     .newsletter_container {
         flex-direction: column;
         gap: 2rem;
@@ -347,11 +414,14 @@ a {
         align-items: center;
         width: 260px;
     }
-    .navbar_box{
-        overflow: hidden;
-    }
     #freelancing{
         text-align: center;
+    }
+    body{
+        background-color: rgb(248, 248, 248);
+    }
+    .body_container {
+        background-color: rgb(248, 248, 248);
     }
 
 
@@ -387,17 +457,8 @@ a {
     .footer_left_box, #p1, #p2{
         text-align:center;
     }
-    #home,
-    #about,
-    #contact,
-    #talktome{
-        display: none;
-    }
-    body{
-        background-color: rgb(248, 248, 248);
-    }
-    .body_container {
-        background-color: rgb(248, 248, 248);
+    .footer_container{
+        background-color: rgb(238, 238, 238);
     }
 
 }
