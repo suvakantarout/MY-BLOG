@@ -346,6 +346,18 @@ a {
     .body_container {
         background-color: rgb(248, 248, 248);
     }
+    .navbar_box{
+        /* background-color: rgb(248, 248, 248); */
+        border-bottom: 1px solid rgb(208, 208, 208);
+        margin: 0px 44px 22px 28px;
+        padding: 25px 8px 25px 20px;
+    }
+    .main_container{
+        margin-top: 40px;
+    }
+    .footer_container{
+        background-color: rgb(238, 238, 238);
+    }
 }
 
 /* Mobile */
