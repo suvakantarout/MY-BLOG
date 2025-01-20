@@ -46,11 +46,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px;
     background-color: rgb(255, 255, 255);
     color: white;
-    margin: 10px;
-    border-bottom: 0.2px solid rgb(224, 224, 224);
+    margin: 10px 30px 0px 50px;
 }
 
 .nav_tag {
