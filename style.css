@@ -397,7 +397,7 @@ a {
 
     /* Nav-bar */
     .navbar_box{
-        border: 1px solid rgb(208, 208, 208);
+        border-bottom: 1px solid rgb(208, 208, 208);
     }
     .nav_tag {
         display: none; 
