@@ -326,9 +326,9 @@ body {
     #p2 {
         text-align: center;
     }
-    .footer_container{
-        background-color: rgb(238, 238, 238);
-    }
+    /* .footer_container{
+        background-color: rgb(230, 230, 230);
+    } */
 
     /* Navbar */
     .nav_tag {
@@ -381,11 +381,11 @@ body {
         display: none;
     }
     body{
-        background-color: rgb(248, 248, 248);
+        background-color: rgb(240, 240, 240);
     }
-    .body_container {
+    /* .body_container {
         background-color: rgb(248, 248, 248);
-    }
+    } */
 
 }
 

@@ -458,7 +458,10 @@ a {
         text-align:center;
     }
     .footer_container{
-        background-color: rgb(238, 238, 238);
+        background-color: rgb(230, 230, 230);
+    }
+    body{
+        background-color: rgb(245, 245, 245);
     }
 
 }

@@ -332,6 +332,12 @@ body {
         margin: 0px 0px 0px 0px;
         padding: 25px 15px 27px 30px;
     }
+    body{
+        background-color: rgb(240, 240, 240);
+    }
+    /* .footer_container{
+        background-color: rgb(230, 230, 230);
+    } */
     
 
 }

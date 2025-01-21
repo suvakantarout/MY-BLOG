@@ -328,9 +328,9 @@ h1{
     .footer_left_box, #p1, #p2{
         text-align:center;
     }
-    .footer_container{
+    /* .footer_container{
         background-color: rgb(230, 230, 230);
-    }
+    } */
 
     .navbar_box{
         overflow: hidden;
