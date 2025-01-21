@@ -327,6 +327,9 @@ a {
     .footer_left_box, #p1, #p2{
         text-align:center;
     }
+    .footer_container{
+        background-color: rgb(238, 238, 238);
+    }
     .text{
         text-align:start;
         font-size: 14px;
@@ -341,9 +344,6 @@ a {
         display: none;
     }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
     body{
-        background-color: rgb(248, 248, 248);
-    }
-    .body_container {
         background-color: rgb(248, 248, 248);
     }
 }
