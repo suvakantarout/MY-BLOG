@@ -59,7 +59,7 @@ body {
 .myname {
     color: black;
     padding: 15px 0px 15px 0px;
-    /* margin-left: -15px; */
+    margin-left: 17px;
 }
 
 #talktome {
@@ -383,8 +383,7 @@ a {
     .navbar_box{
         background-color: rgb(248, 248, 248);
         margin: 0px 0px 0px 0px;
-        padding: 10px 15px 10px 30px;
-        box-shadow: 4px 4px 4px rgb(228, 228, 228);
+        box-shadow: 3px 3px 3px rgb(228, 228, 228);
     }
 
     /* Body */
@@ -413,7 +412,7 @@ a {
         display: none;
     }
     body{
-        background-color: rgb(240, 240, 240);
+        background-color: rgb(255, 255, 255);
     }
     /* .body_container {
         background-color: rgb(248, 248, 248);
