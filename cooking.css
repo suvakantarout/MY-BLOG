@@ -361,11 +361,12 @@ body {
         display: block;
     }
     .navbar_box{
-        background-color: rgb(248, 248, 248);
+        background-color: rgb(247, 247, 247);
         margin: 0px 0px 0px -10px;
         padding: 25px 15px 25px 20px;
-        box-shadow: 4px 4px 4px rgb(228, 228, 228);
+        box-shadow: 2px 2px 2px rgb(236, 236, 236); 
     }
+        
     h3{
         margin-left: 40px;
     }
@@ -381,7 +382,7 @@ body {
         display: none;
     }
     body{
-        background-color: rgb(240, 240, 240);
+        background-color: rgb(255, 255, 255);
     }
     /* .body_container {
         background-color: rgb(248, 248, 248);
