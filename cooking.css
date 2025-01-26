@@ -382,11 +382,11 @@ body {
         display: none;
     }
     .storytelling{
-        color: rgb(178, 178, 178);
+        color: rgb(170, 170, 170);
         background-color: rgb(247, 247, 247);
         border-radius: 10px;
         line-height: 1.5rem;
-        max-width: 87%;
+        max-width: 89%;
         font-weight: 400;
         font-size: medium;
         padding: 15px;
