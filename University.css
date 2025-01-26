@@ -274,7 +274,7 @@ body {
         text-align:center;
     }
     .about_University p {
-        color: rgb(70, 70, 70);
+        background-color: rgb(247, 247, 247);
         line-height: 1.3rem;
         font-size:medium;
         font-weight: 300;
@@ -294,7 +294,7 @@ body {
         background-color: rgb(247, 247, 247);
         font-weight: 400;
         font-size: large;
-        border-radius: 1rem;
+        border-radius: 5px;
     }
 
     /* Navbar */
