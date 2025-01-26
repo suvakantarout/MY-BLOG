@@ -294,6 +294,7 @@ body {
         background-color: rgb(247, 247, 247);
         font-weight: 400;
         font-size: large;
+        border-radius: 1rem;
     }
 
     /* Navbar */
