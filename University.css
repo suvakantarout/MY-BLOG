@@ -291,7 +291,7 @@ body {
 
     .about_University p {
         line-height: 1.7rem;
-        color: rgb(73, 73, 73);
+        background-color: rgb(247, 247, 247);
         font-weight: 400;
         font-size: large;
     }
