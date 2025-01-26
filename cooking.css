@@ -382,9 +382,9 @@ body {
         display: none;
     }
     .storytelling{
-        color: rgb(170, 170, 170);
+        color: rgb(165, 165, 165);
         background-color: rgb(247, 247, 247);
-        border-radius: 10px;
+        border-radius: 8px;
         line-height: 1.5rem;
         max-width: 89%;
         font-weight: 400;
