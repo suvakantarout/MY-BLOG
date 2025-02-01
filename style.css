@@ -270,7 +270,7 @@ a {
 
 .footer_container {
     width: 100%;
-    background-color: rgb(247, 247, 247);
+    background-color: black;
     padding: 5rem;
     margin-top: 5rem;
     overflow: hidden;
@@ -321,28 +321,22 @@ a {
     gap: 0.5rem;
 }
 
-#p1,
-#p2 {
+.C{
     font-size: small;
-    color: rgb(111, 111, 111);
+    color: rgb(255, 255, 255);
 }
 
-#fhome,
-#fabout,
-#fcontact,
-#ftalktome {
+.f{
     font-size: small;
-    color: rgb(111, 111, 111);
+    color: rgb(255, 255, 255);
 }
 
-#flegal1,
-#flegal2,
-#flegal3,
-#flegal4 {
-    font-size: small;
-    color: rgb(111, 111, 111);
+.h4{
+    color: rgb(239 68 68);
 }
-
+#myname{
+    color: rgb(239 68 68);
+}
 /* footer end */
 
 
@@ -355,13 +349,12 @@ a {
         justify-content: left;
         align-items: center;
         justify-content: center;
-
     }
     /* .footer_container {          
         padding: 3.5rem 1.3px;     /* padding(y axis x axis) */
 
-    /* } */
-  
+     /* } */
+   
     .footer_right_box{
         flex-direction: column;
         gap: 35px;
@@ -372,18 +365,15 @@ a {
     .quick_access, .stay_connected, .legal{
         align-items: center;
         justify-content: center;
-    }
+    } 
     .footer_left_box{
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    } 
     .footer_left_box, #p1, #p2{
         text-align:center;
     }
-    /* .footer_container{
-        background-color: rgb(230, 230, 230);
-    } */
 
     /* Nav-bar */
     .nav_tag {
