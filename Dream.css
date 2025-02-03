@@ -259,7 +259,6 @@ h1{
 .footer_left_box {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
 }
 
 .footer_image_box {
