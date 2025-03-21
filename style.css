@@ -270,8 +270,9 @@ a {
 /* footer start */
 
 .footer_container {
+    border-top: 1px solid rgb(230, 230, 230);
     width: 100%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     padding: 5rem;
     margin-top: 5rem;
     overflow: hidden;
@@ -324,19 +325,19 @@ a {
 
 .C{
     font-size: small;
-    color: rgb(255, 255, 255);
+    color: rgb(11, 11, 11);
 }
 
 .f{
     font-size: small;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .h4{
-    color: rgb(239 68 68);
+    color: rgb(149, 149, 149);
 }
 #myname{
-    color: rgb(239 68 68);
+    color: rgb(150, 150, 150);
 }
 /* footer end */
 
