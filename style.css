@@ -185,9 +185,9 @@ a {
     overflow: hidden;
     height: 450px;
     transition: transform 0.3s ease; 
-    animation: scroll-animation both ease-in-out;
-    animation-timeline: view(70vh 0px);
-    animation-range: contain 0% contain 50%; 
+    /* animation: scroll-animation both ease-in-out; */
+    /* animation-timeline: view(70vh 0px);
+    animation-range: contain 0% contain 50%;  */
 }
 
 .card_container:hover{
@@ -272,7 +272,8 @@ a {
 .footer_container {
     border-top: 1px solid rgb(230, 230, 230);
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(0, 0, 0);
     padding: 5rem;
     margin-top: 5rem;
     overflow: hidden;
@@ -325,19 +326,19 @@ a {
 
 .C{
     font-size: small;
-    color: rgb(11, 11, 11);
+    color: rgb(255, 255, 255);
 }
 
 .f{
     font-size: small;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .h4{
-    color: rgb(149, 149, 149);
+    color: rgb(255, 0, 0);
 }
 #myname{
-    color: rgb(150, 150, 150);
+    color: rgb(255, 0, 0);
 }
 /* footer end */
 
