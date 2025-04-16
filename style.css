@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
+    /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", */
+    font-family: 'Nunito Sans', sans-serif;
+    /* Helvetica, Arial, "Lucida Grande", sans-serif; */
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -184,7 +185,7 @@ a {
     border-radius: 20px;
     overflow: hidden;
     height: 450px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.2s ease-in-out; 
     /* animation: scroll-animation both ease-in-out; */
     /* animation-timeline: view(70vh 0px);
     animation-range: contain 0% contain 50%;  */
