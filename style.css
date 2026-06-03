@@ -10,22 +10,18 @@
     text-decoration: none;
 }
 
-html
-{
+html {
     scroll-behavior: smooth;
 }
 
-@keyframes scroll-animation
-{
-    from
-    {
+@keyframes scroll-animation {
+    from {
         opacity: 0;
         /* scale: 0.5; */
         transform: translateY(5vh);
     }
 
-    to
-    {
+    to {
         opacity: 1;
         /* scale: 1; */
     }
@@ -55,6 +51,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -70,6 +67,7 @@ body {
     font-size: 1.5rem;
     color: #929292;
 }
+
 .nav_links {
     display: flex;
     gap: 3rem;
@@ -78,7 +76,7 @@ body {
 .myname {
     color: black;
     margin-left: -15px;
-    
+
 }
 
 #talktome {
@@ -92,8 +90,8 @@ body {
     background-color: black;
     color: white;
     cursor: pointer;
-    box-shadow: 0px 4px 8px rgb(88, 88, 88); 
-    transition: box-shadow 0.3s ease; 
+    box-shadow: 0px 4px 8px rgb(88, 88, 88);
+    transition: box-shadow 0.3s ease;
 }
 
 #talktome:hover {
@@ -172,8 +170,8 @@ a {
 .main_container {
     display: grid;
     gap: 2rem;
-    /* grid-template-columns: repeat(3, 1fr);  same as-->grid-template-columns: (1fr,1fr,1fr) */
-    grid-template-columns: repeat(auto-fit ,minmax(250px, 1fr )); 
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     width: 85%;
     margin: 0 auto;
 }
@@ -182,16 +180,17 @@ a {
     display: flex;
     border: 1px solid rgb(201, 201, 201);
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
     height: 450px;
-    transition: transform 0.2s ease-in-out; 
+    transition: transform 0.2s ease-in-out;
     /* animation: scroll-animation both ease-in-out; */
     /* animation-timeline: view(70vh 0px);
     animation-range: contain 0% contain 50%;  */
 }
 
-.card_container:hover{
+
+.card_container:hover {
     transform: scale(1.02);
     box-shadow: 0px 6px 12px rgba(83, 83, 83, 0.5);
 }
@@ -207,21 +206,23 @@ a {
     height: 250px;
 }
 
-.card_image {   
-    position: absolute;         /* IMPORTANT FOR FIT AN IMAGE */
+.card_image {
+    position: absolute;
+    /* IMPORTANT FOR FIT AN IMAGE */
     object-position: center;
     object-fit: cover;
     height: 100%;
     width: 100%;
-    
+
 }
 
 #content {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-
+    flex-grow: 1;
 }
+
 
 #content h2 {
     font-size: 1.5rem;
@@ -237,11 +238,22 @@ a {
     margin-bottom: 10px;
 }
 
-.profile_div {
+#profile {
+    margin-top: auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding: 1rem;
+    align-items: center;
+    padding: 0 1rem 1rem;
+}
+
+#readMore button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
 }
 
 #card_name {
@@ -261,9 +273,18 @@ a {
 #Day_Date {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     color: rgb(94, 94, 94);
-    cursor: pointer;
-    padding: 20px;
+    line-height: 1.2;
+}
+
+#Day {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+#Day_Date span:last-child {
+    font-size: 0.8rem;
 }
 
 
@@ -325,64 +346,78 @@ a {
     gap: 0.5rem;
 }
 
-.C{
+.C {
     font-size: small;
     color: rgb(255, 255, 255);
 }
 
-.f{
+.f {
     font-size: small;
     color: rgb(255, 255, 255);
 }
 
-.h4{
+.h4 {
     color: rgb(255, 0, 0);
 }
-#myname{
+
+#myname {
     color: rgb(255, 0, 0);
 }
+
 /* footer end */
 
 
 /* Responsive start */
 
-@media only screen and (max-width: 768px){    /* I pad */
+@media only screen and (max-width: 768px) {
+
+    /* I pad */
     /* footer */
-    .footer_box{
+    .footer_box {
         flex-direction: column;
         justify-content: left;
         align-items: center;
         justify-content: center;
     }
+
     /* .footer_container {          
         padding: 3.5rem 1.3px;     /* padding(y axis x axis) */
 
-     /* } */
-   
-    .footer_right_box{
+    /* } */
+
+    .footer_right_box {
         flex-direction: column;
         gap: 35px;
     }
-    .footer_box{
+
+    .footer_box {
         gap: 35px;
     }
-    .quick_access, .stay_connected, .legal{
+
+    .quick_access,
+    .stay_connected,
+    .legal {
         align-items: center;
         justify-content: center;
-    } 
-    .footer_left_box{
+    }
+
+    .footer_left_box {
         display: flex;
         align-items: center;
         justify-content: center;
-    } 
-    .footer_left_box, #p1, #p2{
-        text-align:center;
+    }
+
+    .footer_left_box,
+    #p1,
+    #p2 {
+        text-align: center;
     }
 
     /* Nav-bar */
     .nav_tag {
-        display: none; 
+        display: none;
     }
+
     .nav_links {
         display: none;
         flex-direction: column;
@@ -409,12 +444,14 @@ a {
     .hamburger {
         display: block;
     }
-    .navbar_box{
+
+    .navbar_box {
         background-color: rgb(247, 247, 247);
         margin: 0px 0px 0px 0px;
-        box-shadow: 3px 3px 3px rgb(236, 236, 236); 
+        box-shadow: 3px 3px 3px rgb(236, 236, 236);
     }
-    h3{
+
+    h3 {
         margin-left: 35px;
     }
 
@@ -423,38 +460,61 @@ a {
         color: rgb(73, 73, 73);
         line-height: 1.5rem;
     }
+
     #paragraph {
         font-size: large;
         line-height: 1.7rem;
         font-weight: 400;
         color: rgb(81, 81, 81);
     }
+
     #headertitle {
         margin-top: 3rem;
     }
+
     #Day_Date {
         color: rgb(73, 73, 73);
     }
-    body{
+
+    body {
         background-color: rgb(255, 255, 255);
     }
+
     /* .body_container {
         background-color: rgb(248, 248, 248);
     } */
     .card_container {
         border-radius: 10px;
         border: 1.5px solid rgb(201, 201, 201);
-        box-shadow: 0px 4px 8px rgb(180, 180, 180); 
+        box-shadow: 0px 4px 8px rgb(180, 180, 180);
     }
 
 }
 
 
 
-@media only screen and (max-width: 480px){   /* Mobile*/
+@media (max-width: 576px) {
 
+    /* Mobile Responsive */
+    #profile {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #readMore button {
+        width: 200px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    #Day {
+        font-size: 0.9rem;
+    }
+
+    #Day_Date span:last-child {
+        font-size: 0.75rem;
+    }
 }
+
 /* Responsive end */
-
-
-
