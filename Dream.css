@@ -218,7 +218,7 @@ h1{
 
 .footer_container {
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: #FAF9F6;
     padding: 5rem;
     margin-top: 5rem;
 }
@@ -259,6 +259,7 @@ h1{
 .footer_left_box {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 .footer_image_box {
@@ -269,22 +270,23 @@ h1{
 
 .C{
     font-size: small;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .f{
     font-size: small;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .h4{
-    color: rgb(239 68 68);
+    color: rgb(118, 118, 118);
 }
 #myname{
-    color: rgb(239 68 68);
+    color: rgb(118, 118, 118);
 }
 
 /* footer end */
+
 
 
 /* Responsive start */

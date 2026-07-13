@@ -170,7 +170,7 @@ a {
     display: grid;
     gap: 2rem;
     /* grid-template-columns: repeat(4, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     width: 85%;
     margin: 0 auto;
 }
@@ -224,7 +224,7 @@ a {
 
 
 #content h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     color: black;
     line-height: 1.5rem;
@@ -232,7 +232,7 @@ a {
 }
 
 #content p {
-    color: rgb(94, 94, 94);
+    color: rgb(118, 118, 118);
     line-height: 1.5rem;
     margin-bottom: 10px;
 }
@@ -273,11 +273,12 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    color: rgb(94, 94, 94);
+    color: rgb(118, 118, 118);
     line-height: 1.2;
 }
 
 #Day {
+    color: rgb(94,94,94);
     font-size: 0.95rem;
     font-weight: 600;
 }
@@ -291,17 +292,11 @@ a {
 /* footer start */
 
 .footer_container {
-    border-top: 1px solid rgb(230, 230, 230);
     width: 100%;
-    /* background-color: rgb(255, 255, 255); */
-    background-color: rgb(0, 0, 0);
+    background-color: #FAF9F6;
     padding: 5rem;
     margin-top: 5rem;
-    overflow: hidden;
-    margin-left: 0;
 }
-
-
 
 .footer_box {
     display: flex;
@@ -348,22 +343,21 @@ a {
     gap: 0.5rem;
 }
 
-.C {
+.C{
     font-size: small;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
-.f {
+.f{
     font-size: small;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
-.h4 {
-    color: rgb(255, 0, 0);
+.h4{
+    color: rgb(118, 118, 118);
 }
-
-#myname {
-    color: rgb(255, 0, 0);
+#myname{
+    color: rgb(118, 118, 118);
 }
 
 /* footer end */
